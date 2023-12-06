@@ -10,6 +10,9 @@ pkgs.mkShell {
 		(python311.withPackages python-packages)
 		bash
 		ruby
+		nasm
+		swiProlog
+		pkgs.pkgsi686Linux.gcc
 	];
 }
 
